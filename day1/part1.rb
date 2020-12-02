@@ -1,4 +1,4 @@
-pp IO
+puts IO
   .read(ARGV.first)
   .split("\n")
   .map(&:to_i)
